@@ -1,6 +1,6 @@
 {
   "name": "form-fields",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "My node module",
   "license": "MIT",
   "repository": "davidroyer/form-fields",
@@ -24,7 +24,6 @@
     "clean": "rimraf dist",
     "prebuild": "npm run docs && npm run clean",
     "build": "babel src -d dist",
-    "prerelease": "npm run lint && npm test && npm run build",
     "release": "standard-version",
     "postpublish": "git push origin master --follow-tags"
   },
