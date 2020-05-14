@@ -3,13 +3,21 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.default = exports.generateNewField = void 0;
+
 // @ts-check
 // /**
 //  * This function says hello.
 //  * @param name Some name to say hello for.
 //  * @returns The hello.
 //  */
+const generateNewField = fieldName => {
+  {
+    id: fieldName;
+  }
+};
+
+exports.generateNewField = generateNewField;
 var _default = [
 /**
  * NOTE: The text input fields
