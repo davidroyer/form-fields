@@ -12,9 +12,9 @@ exports.default = exports.generateNewField = void 0;
 //  * @returns The hello.
 //  */
 const generateNewField = fieldName => {
-  {
-    id: fieldName;
-  }
+  return {
+    id: fieldName
+  };
 };
 
 exports.generateNewField = generateNewField;
