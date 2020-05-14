@@ -22,8 +22,9 @@
     "docs": "documentation readme src --section=API",
     "postdocs": "git add README.md",
     "clean": "rimraf dist",
-    "prebuild": "npm run docs && npm run clean",
+    "prebuild": "yarn docs && yarn clean",
     "build": "babel src -d dist",
+    "prerelease": "yarn build",
     "release": "standard-version",
     "postrelease": "git push origin master --follow-tags"
   },
