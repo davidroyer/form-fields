@@ -5,6 +5,13 @@
 //  * @param name Some name to say hello for.
 //  * @returns The hello.
 //  */
+
+export const generateNewField = fieldName => {
+  {
+    id: fieldName;
+  }
+};
+
 export default [
   /**
    * NOTE: The text input fields
