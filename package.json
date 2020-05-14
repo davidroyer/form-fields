@@ -24,9 +24,13 @@
     "clean": "rimraf dist",
     "prebuild": "yarn docs && yarn clean",
     "build": "babel src -d dist",
-    "prerelease": "yarn build",
     "release": "standard-version",
     "postrelease": "git push origin master --follow-tags"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "yarn build && git add -A && git commit -m 'chore: new build'"
+    }
   },
   "husky": {
     "hooks": {
