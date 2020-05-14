@@ -7,8 +7,8 @@
 //  */
 
 export const generateNewField = fieldName => {
-  {
-    id: fieldName;
+  return {
+    id: fieldName
   }
 };
 
