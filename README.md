@@ -1,4 +1,4 @@
-# nod
+# FormFields
 
 [![NPM version](https://img.shields.io/npm/v/generator-nod.svg?style=flat-square)](https://npmjs.org/package/generator-nod)
 [![Build Status](https://img.shields.io/travis/diegohaz/nod/master.svg?style=flat-square)](https://travis-ci.org/diegohaz/nod) [![Coverage Status](https://img.shields.io/codecov/c/github/diegohaz/nod/master.svg?style=flat-square)](https://codecov.io/gh/diegohaz/nod/branch/master)
@@ -9,14 +9,14 @@ NodeJS module generator/boilerplate.
 
 ## Features
 
--   [**Babel**](https://babeljs.io/) - Write next generation JavaScript today.
--   [**Jest**](https://facebook.github.io/jest) - JavaScript testing framework used by Facebook.
--   [**ESLint**](http://eslint.org/) - Make sure you are writing a quality code.
--   [**Prettier**](https://prettier.io/) - Enforces a consistent style by parsing your code and re-printing it.
--   [**Flow**](https://flowtype.org/) - A static type checker for JavaScript used heavily within Facebook.
--   [**Travis CI**](https://travis-ci.org) - Automate tests and linting for every push or pull request.
--   [**Documentation**](http://documentation.js.org/) - A documentation system so good, you'll actually write documentation.
--   [**Standard Version**](https://github.com/conventional-changelog/standard-version) - Automate versioning and CHANGELOG generation.
+- [**Babel**](https://babeljs.io/) - Write next generation JavaScript today.
+- [**Jest**](https://facebook.github.io/jest) - JavaScript testing framework used by Facebook.
+- [**ESLint**](http://eslint.org/) - Make sure you are writing a quality code.
+- [**Prettier**](https://prettier.io/) - Enforces a consistent style by parsing your code and re-printing it.
+- [**Flow**](https://flowtype.org/) - A static type checker for JavaScript used heavily within Facebook.
+- [**Travis CI**](https://travis-ci.org) - Automate tests and linting for every push or pull request.
+- [**Documentation**](http://documentation.js.org/) - A documentation system so good, you'll actually write documentation.
+- [**Standard Version**](https://github.com/conventional-changelog/standard-version) - Automate versioning and CHANGELOG generation.
 
 ## Install
 
@@ -226,8 +226,8 @@ It'll automatically run `test`, `lint`, `docs`, `build`, generate `CHANGELOG.md`
 
 #### Table of Contents
 
--   [rules](#rules)
--   [rules](#rules-1)
+- [rules](#rules)
+- [rules](#rules-1)
 
 ### rules
 
